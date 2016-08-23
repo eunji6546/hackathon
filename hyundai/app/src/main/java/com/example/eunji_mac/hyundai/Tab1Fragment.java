@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.GoogleMap;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -18,6 +20,9 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class Tab1Fragment extends Fragment {
+
+    private GoogleMap mMap;
+
     public Tab1Fragment() {
         // Required empty public constructor
     }
